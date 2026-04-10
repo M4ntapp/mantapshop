@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "MantapShop",
+    "slug": "MantapShop",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/MantapShop.jpg",
+    "scheme": "mantapshop",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/MantapShop.jpg",
+        "backgroundColor": "#0D0B1E"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./assets/images/MantapShop.jpg"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/MantapShop.jpg",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#0D0B1E",
+          "dark": {
+            "backgroundColor": "#0D0B1E"
+          }
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    }
+  }
+}
