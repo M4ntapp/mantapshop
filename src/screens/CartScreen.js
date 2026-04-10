@@ -68,7 +68,7 @@ export default function CartScreen() {
               </Text>
             </View>
 
-            {/* Qty control */}
+            
             <View style={styles.qtyRow}>
               <TouchableOpacity
                 onPress={() => updateQty(item.id, -1)}
@@ -94,7 +94,7 @@ export default function CartScreen() {
         )}
       />
 
-      {/* ── SUMMARY ── */}
+      
       <View style={[styles.summary, { backgroundColor: cardBg, borderColor }]}>
         {cart.map((item) => (
           <View key={item.id} style={styles.summaryRow}>
